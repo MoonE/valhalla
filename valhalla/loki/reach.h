@@ -1,6 +1,5 @@
 #pragma once
 #include <valhalla/baldr/directededge.h>
-#include <valhalla/loki/search.h>
 #include <valhalla/thor/dijkstras.h>
 
 #include <cstdint>

@@ -6,10 +6,10 @@
 #include <valhalla/baldr/tilehierarchy.h>
 #include <valhalla/midgard/aabb2.h>
 #include <valhalla/midgard/pointll.h>
+#include <valhalla/midgard/util.h>
 
 #include <boost/property_tree/ptree.hpp>
 
-#include <algorithm>
 #include <cstdint>
 #include <memory>
 #include <mutex>

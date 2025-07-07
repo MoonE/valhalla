@@ -1,4 +1,5 @@
 #include "mjolnir/countryaccess.h"
+#include "mjolnir/adminconstants.h"
 
 namespace valhalla {
 namespace mjolnir {

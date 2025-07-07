@@ -1,8 +1,11 @@
 #include "mjolnir/ferry_connections.h"
 #include "baldr/graphconstants.h"
 #include "midgard/util.h"
+#include "mjolnir/node_expander.h"
+#include "mjolnir/osmdata.h"
 #include "scoped_timer.h"
 
+#include <map>
 #include <queue>
 #include <unordered_map>
 

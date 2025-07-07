@@ -2,13 +2,12 @@
 
 #include <valhalla/baldr/graphid.h>
 #include <valhalla/filesystem.h>
-#include <valhalla/midgard/pointll.h>
 #include <valhalla/proto/transit.pb.h>
 
 #include <boost/property_tree/ptree.hpp>
 
-#include <algorithm>
 #include <list>
+#include <mutex>
 #include <string>
 
 namespace valhalla {

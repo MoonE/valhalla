@@ -5,7 +5,6 @@
 #include <valhalla/baldr/graphid.h>
 #include <valhalla/baldr/graphreader.h>
 
-#include <cstdint>
 #include <deque>
 #include <utility>
 

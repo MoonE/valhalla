@@ -1,4 +1,5 @@
 #include "argparse_utils.h"
+#include "baldr/datetime.h"
 #include "baldr/graphtile.h"
 #include "baldr/tilehierarchy.h"
 #include "filesystem.h"

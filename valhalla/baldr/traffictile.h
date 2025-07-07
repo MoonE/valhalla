@@ -11,12 +11,9 @@
 #include <valhalla/baldr/graphmemory.h>
 #include <valhalla/baldr/json.h>
 
-#include <algorithm>
 #include <cstdint>
-#include <exception>
 #include <memory>
 #include <string>
-#include <type_traits>
 #else
 #include <stdint.h>
 #endif

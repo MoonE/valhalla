@@ -1,7 +1,6 @@
 #ifndef VALHALLA_LOKI_SEARCH_H_
 #define VALHALLA_LOKI_SEARCH_H_
 
-#include <valhalla/baldr/directededge.h>
 #include <valhalla/baldr/graphreader.h>
 #include <valhalla/baldr/location.h>
 #include <valhalla/baldr/pathlocation.h>
@@ -11,7 +10,7 @@ namespace valhalla {
 namespace loki {
 
 /**
- * Find an location within the route network given an input location
+ * Find a location within the route network given an input location
  * same tiled route data and a search strategy
  *
  * @param locations      the positions which need to be correlated to the route network

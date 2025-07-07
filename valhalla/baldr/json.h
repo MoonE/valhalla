@@ -4,7 +4,6 @@
 #include <boost/variant.hpp>
 
 #include <cctype>
-#include <cinttypes>
 #include <cmath>
 #include <cstddef>
 #include <iomanip>

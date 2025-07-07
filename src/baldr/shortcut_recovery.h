@@ -1,6 +1,7 @@
 #pragma once
 
 #include "baldr/graphreader.h"
+#include "baldr/graphtile.h"
 #include "baldr/tilehierarchy.h"
 #include "midgard/logging.h"
 

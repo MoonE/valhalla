@@ -2,9 +2,9 @@
 #include "baldr/connectivity_map.h"
 #include "baldr/tilehierarchy.h"
 #include "filesystem.h"
-#include "test.h"
 
 #include <fcntl.h>
+#include <gtest/gtest.h>
 
 #include <cstdint>
 

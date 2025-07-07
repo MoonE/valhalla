@@ -1,13 +1,12 @@
 // -*- mode: c++ -*-
 #pragma once
 
+#include "baldr/directededge.h"
 #include "baldr/graphreader.h"
+#include "baldr/predictedspeeds.h"
 #include "baldr/traffictile.h"
-#include "config.h"
 #include "midgard/polyline2.h"
-#include "mjolnir/graphtilebuilder.h"
 
-#include <cmath>
 #include <random>
 #include <string>
 #ifndef _MSC_VER
@@ -18,6 +17,9 @@
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 #include <sys/stat.h>
+
+using namespace valhalla::baldr;
+using namespace valhalla::midgard;
 
 namespace test {
 

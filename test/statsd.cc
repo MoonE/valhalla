@@ -1,6 +1,7 @@
 #include "cpp-statsd-client/../../tests/StatsdServer.hpp"
-#include "test.h"
 #include "worker.h"
+
+#include <gtest/gtest.h>
 
 #include <thread>
 

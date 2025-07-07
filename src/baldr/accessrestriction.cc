@@ -1,6 +1,7 @@
 #include "baldr/accessrestriction.h"
 
-#include <cstring>
+#include <string>
+#include <unordered_map>
 
 namespace vb = valhalla::baldr;
 

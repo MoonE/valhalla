@@ -1,6 +1,8 @@
 #include "baldr/edgeinfo.h"
 #include "baldr/graphconstants.h"
 #include "midgard/elevation_encoding.h"
+#include "midgard/logging.h"
+#include "midgard/util.h"
 
 using namespace valhalla::baldr;
 

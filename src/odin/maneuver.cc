@@ -2,14 +2,13 @@
 #include "baldr/streetnames.h"
 #include "baldr/streetnames_us.h"
 #include "midgard/constants.h"
-#include "midgard/logging.h"
-#include "midgard/util.h"
 #include "odin/transitrouteinfo.h"
 #include "proto/common.pb.h"
 #include "proto/directions.pb.h"
 #include "proto/options.pb.h"
 
 #include <list>
+#include <unordered_map>
 #include <utility>
 
 using namespace valhalla::odin;

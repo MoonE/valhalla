@@ -7,9 +7,9 @@
 #include "midgard/pointll.h"
 #include "midgard/vector2.h"
 #include "sif/nocost.h"
-#include "test.h"
 
 #include <boost/property_tree/ptree.hpp>
+#include <gtest/gtest.h>
 
 #include <cstdint>
 #include <filesystem>

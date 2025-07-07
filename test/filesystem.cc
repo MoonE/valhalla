@@ -1,10 +1,11 @@
 #include "filesystem.h"
-#include "test.h"
 
+#include <gtest/gtest.h>
 #include <sys/stat.h>
 
 #include <algorithm>
 #include <fstream>
+#include <list>
 #include <string>
 #include <thread>
 #include <vector>

@@ -9,7 +9,6 @@
 
 #include <functional>
 // TODO(nils): should abstract more so we don't pull this in
-#include <valhalla/thor/pathalgorithm.h>
 #include <valhalla/worker.h>
 
 namespace valhalla {

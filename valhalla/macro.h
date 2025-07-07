@@ -1,6 +1,6 @@
 #pragma once
 
-#include <exception>
+#include <stdexcept>
 
 #define CHECK_THROWS(condition, message)                                                             \
   {                                                                                                  \

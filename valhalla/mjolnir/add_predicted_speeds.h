@@ -1,12 +1,9 @@
 #pragma once
 
-#include "baldr/graphid.h"
-#include "baldr/predictedspeeds.h"
 #include "filesystem.h"
 
 #include <boost/property_tree/ptree.hpp>
 
-#include <optional>
 #include <string>
 
 namespace valhalla {

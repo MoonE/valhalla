@@ -1,11 +1,7 @@
 #include "argparse_utils.h"
 #include "baldr/graphreader.h"
-#include "baldr/pathlocation.h"
-#include "baldr/rapidjson_utils.h"
 #include "loki/worker.h"
 #include "midgard/logging.h"
-#include "odin/directionsbuilder.h"
-#include "odin/util.h"
 #include "sif/costfactory.h"
 #include "thor/costmatrix.h"
 #include "thor/optimizer.h"
@@ -15,7 +11,6 @@
 #include <boost/property_tree/ptree.hpp>
 #include <cxxopts.hpp>
 
-#include <cmath>
 #include <cstdint>
 #include <cstdlib>
 #include <iostream>

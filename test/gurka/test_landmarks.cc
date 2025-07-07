@@ -4,14 +4,12 @@
 #include "mjolnir/graphtilebuilder.h"
 #include "mjolnir/landmarks.h"
 #include "mjolnir/util.h"
-#include "odin/enhancedtrippath.h"
 #include "test/test.h"
 
 #include <boost/property_tree/ptree.hpp>
 #include <gtest/gtest.h>
 
 #include <filesystem>
-#include <iomanip>
 #include <vector>
 
 using namespace valhalla;

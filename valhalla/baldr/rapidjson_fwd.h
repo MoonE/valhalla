@@ -13,7 +13,7 @@
 // Enable std::string overloads
 #define RAPIDJSON_HAS_STDSTRING 1
 
-#include <rapidjson/fwd.h>
+#include <rapidjson/fwd.h> // IWYU pragma: export
 
 namespace rapidjson {
 class writer_wrapper_t;

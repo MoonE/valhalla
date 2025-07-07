@@ -1,24 +1,29 @@
+#include "argparse_utils.h"
+#include "config.h"
+#include "midgard/logging.h"
+#include "proto_conversions.h"
+#include "tyr/actor.h"
+#include "worker.h"
+
 #include <cxxopts.hpp>
 
 #include <fstream>
 #include <iostream>
-#include <list>
-#include <streambuf>
 #include <string>
-#include <thread>
-#ifdef ENABLE_SERVICES
-#include <prime_server/http_protocol.hpp>
-#include <prime_server/prime_server.hpp>
-using namespace prime_server;
-#endif
 
-#include "argparse_utils.h"
-#include "config.h"
+#ifdef ENABLE_SERVICES
 #include "loki/worker.h"
-#include "midgard/logging.h"
 #include "odin/worker.h"
 #include "thor/worker.h"
-#include "tyr/actor.h"
+
+#include <prime_server/http_protocol.hpp>
+#include <prime_server/prime_server.hpp>
+
+#include <list>
+#include <thread>
+
+using namespace prime_server;
+#endif
 
 int main(int argc, char** argv) {
   const auto program = filesystem::path(__FILE__).stem().string();

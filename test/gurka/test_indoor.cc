@@ -1,5 +1,5 @@
+#include "baldr/rapidjson_utils.h"
 #include "gurka.h"
-#include "mjolnir/osmway.h"
 #include "test.h"
 
 #include <gmock/gmock.h>
@@ -10,7 +10,7 @@
 #endif
 
 using namespace valhalla;
-using namespace mjolnir;
+
 const std::unordered_map<std::string, std::string> build_config{{}};
 
 struct range_t {

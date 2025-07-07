@@ -1,6 +1,6 @@
 #include "baldr/rapidjson_utils.h"
+#include "config.h"
 #include "loki/worker.h"
-#include "midgard/logging.h"
 #include "odin/worker.h"
 #include "proto/api.pb.h"
 #include "proto_conversions.h"

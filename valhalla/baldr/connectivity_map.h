@@ -4,7 +4,6 @@
 #include <valhalla/baldr/graphreader.h>
 #include <valhalla/baldr/pathlocation.h>
 
-#include <cstdint>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>

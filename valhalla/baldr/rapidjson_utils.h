@@ -5,16 +5,16 @@
 
 #include <boost/lexical_cast.hpp>
 #include <boost/optional.hpp>
-#include <rapidjson/allocators.h>
-#include <rapidjson/document.h>
-#include <rapidjson/error/en.h>
-#include <rapidjson/istreamwrapper.h>
-#include <rapidjson/pointer.h>
-#include <rapidjson/prettywriter.h>
-#include <rapidjson/rapidjson.h>
-#include <rapidjson/schema.h>
-#include <rapidjson/stringbuffer.h>
-#include <rapidjson/writer.h>
+#include <rapidjson/allocators.h>     // IWYU pragma: export
+#include <rapidjson/document.h>       // IWYU pragma: export
+#include <rapidjson/error/en.h>       // IWYU pragma: export
+#include <rapidjson/istreamwrapper.h> // IWYU pragma: export
+#include <rapidjson/pointer.h>        // IWYU pragma: export
+#include <rapidjson/prettywriter.h>   // IWYU pragma: export
+#include <rapidjson/rapidjson.h>      // IWYU pragma: export
+#include <rapidjson/schema.h>         // IWYU pragma: export
+#include <rapidjson/stringbuffer.h>   // IWYU pragma: export
+#include <rapidjson/writer.h>         // IWYU pragma: export
 
 #include <fstream>
 #include <istream>

@@ -19,7 +19,6 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/tokenizer.hpp>
 
-#include <cmath>
 #include <cstdint>
 #include <future>
 #include <memory>

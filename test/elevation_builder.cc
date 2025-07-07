@@ -1,11 +1,14 @@
 #include "baldr/curl_tilegetter.h"
-#include "baldr/tilehierarchy.h"
 #include "filesystem.h"
 #include "midgard/pointll.h"
 #include "midgard/sequence.h"
 #include "mjolnir/elevationbuilder.h"
 #include "mjolnir/graphtilebuilder.h"
+#include "mjolnir/util.h"
+#include "pixels.h"
+#include "skadi/sample.h"
 #include "test.h"
+#include "tile_server.h"
 
 #include <prime_server/prime_server.hpp>
 
@@ -14,10 +17,6 @@
 #include <iterator>
 #include <string>
 #include <unordered_set>
-#include "mjolnir/util.h
-#include "pixels.h"
-#include "skadi/sample.h"
-#include "tile_server.h"
 
 namespace {
 // meters to resample shape to.

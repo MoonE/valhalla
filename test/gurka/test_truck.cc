@@ -1,5 +1,6 @@
 #include "gurka.h"
 #include "test.h"
+#include "worker.h"
 
 #include <gtest/gtest.h>
 

@@ -7,7 +7,6 @@
 #include <valhalla/sif/costconstants.h>
 
 #include <cstdint>
-#include <cstring>
 
 namespace valhalla {
 namespace sif {

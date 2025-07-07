@@ -4,8 +4,6 @@
 #include <valhalla/baldr/graphid.h>
 #include <valhalla/baldr/graphreader.h>
 
-#include <cstdint>
-
 namespace valhalla {
 namespace baldr {
 

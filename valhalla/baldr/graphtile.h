@@ -1,6 +1,7 @@
 #pragma once
 
 #include <valhalla/baldr/accessrestriction.h>
+#include <valhalla/baldr/admin.h>
 #include <valhalla/baldr/admininfo.h>
 #include <valhalla/baldr/complexrestriction.h>
 #include <valhalla/baldr/directededge.h>
@@ -23,9 +24,8 @@
 #include <valhalla/baldr/transitstop.h>
 #include <valhalla/baldr/transittransfer.h>
 #include <valhalla/baldr/turnlanes.h>
-#include <valhalla/filesystem.h>
 #include <valhalla/midgard/aabb2.h>
-#include <valhalla/midgard/logging.h>
+#include <valhalla/midgard/util.h>
 
 #include <cstdint>
 #include <iterator>

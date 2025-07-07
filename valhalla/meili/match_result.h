@@ -3,7 +3,6 @@
 #define MMP_MATCH_RESULT_H_
 
 #include <valhalla/baldr/graphid.h>
-#include <valhalla/baldr/graphreader.h>
 #include <valhalla/meili/stateid.h>
 #include <valhalla/midgard/pointll.h>
 

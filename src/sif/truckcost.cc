@@ -4,14 +4,15 @@
 #include "baldr/graphconstants.h"
 #include "baldr/nodeinfo.h"
 #include "baldr/rapidjson_utils.h"
+#include "proto/api.pb.h"
 #include "proto_conversions.h"
 #include "sif/osrm_car_duration.h"
+#include "worker.h"
 
 #include <cassert>
 
 #ifdef INLINE_TEST
 #include "test.h"
-#include "worker.h"
 
 #include <random>
 #endif

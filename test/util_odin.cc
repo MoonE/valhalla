@@ -1,7 +1,8 @@
 #include "baldr/rapidjson_utils.h"
 #include "midgard/logging.h"
 #include "odin/util.h"
-#include "test.h"
+
+#include <gtest/gtest.h>
 
 #include <locale>
 #include <regex>

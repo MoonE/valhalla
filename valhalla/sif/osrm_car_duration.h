@@ -1,8 +1,10 @@
 #pragma once
 
 #include "baldr/directededge.h"
-#include "baldr/graphconstants.h"
 #include "baldr/nodeinfo.h"
+#include "midgard/util.h"
+
+#include <array>
 
 namespace {
 

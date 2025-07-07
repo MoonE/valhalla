@@ -1,10 +1,10 @@
 #include "midgard/gridded_data.h"
 #include "midgard/pointll.h"
 
-#include <limits>
-// #include <iostream>
+#include <gtest/gtest.h>
 
-#include "test.h"
+// #include <iostream>
+#include <limits>
 
 using namespace valhalla::midgard;
 

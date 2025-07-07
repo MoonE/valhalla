@@ -1,10 +1,13 @@
 #include "baldr/graphtile.h"
-#include "test.h"
+#include "midgard/pointll.h"
+
+#include <gtest/gtest.h>
 
 #include <cstdint>
 #include <vector>
 
 using namespace valhalla::baldr;
+using namespace valhalla::midgard;
 
 namespace {
 

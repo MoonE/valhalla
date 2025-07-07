@@ -17,7 +17,6 @@
 #include <cxxopts.hpp>
 #include <sqlite3.h>
 
-#include <cinttypes>
 #include <cstdint>
 #include <unordered_map>
 #include <vector>

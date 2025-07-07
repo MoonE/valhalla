@@ -2,12 +2,11 @@
 #include "baldr/datetime.h"
 #include "baldr/directededge.h"
 #include "baldr/graphid.h"
-#include "midgard/encoded.h"
 #include "midgard/logging.h"
 #include "sif/edgelabel.h"
+#include "sif/hierarchylimits.h"
 #include "sif/recost.h"
 #include "thor/alternates.h"
-#include "worker.h"
 
 #include <algorithm>
 

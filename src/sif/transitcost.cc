@@ -1,6 +1,7 @@
 #include "sif/transitcost.h"
 #include "baldr/graphconstants.h"
 #include "baldr/rapidjson_utils.h"
+#include "proto/api.pb.h"
 #include "proto_conversions.h"
 #include "worker.h"
 

@@ -2,7 +2,6 @@
 #define __VALHALLA_SERVICE_H__
 #include <valhalla/proto/api.pb.h>
 #include <valhalla/sif/dynamiccost.h>
-#include <valhalla/valhalla.h>
 
 #include <string>
 

@@ -1,4 +1,6 @@
 #include "mjolnir/util.h"
+#include "baldr/graphtile.h"
+#include "baldr/nodeinfo.h"
 #include "baldr/rapidjson_utils.h"
 #include "baldr/tilehierarchy.h"
 #include "filesystem.h"

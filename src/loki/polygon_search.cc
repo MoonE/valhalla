@@ -1,7 +1,5 @@
-#include <valhalla/baldr/json.h>
 #include <valhalla/loki/polygon_search.h>
 #include <valhalla/midgard/constants.h>
-#include <valhalla/midgard/logging.h>
 #include <valhalla/midgard/pointll.h>
 #include <valhalla/midgard/util.h>
 #include <valhalla/worker.h>

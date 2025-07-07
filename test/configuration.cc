@@ -1,7 +1,8 @@
 #include "config.h"
-#include "test.h"
 
 #include <valhalla/worker.h>
+
+#include <gtest/gtest.h>
 
 #include <string>
 

@@ -1,6 +1,8 @@
 #include "baldr/admin.h"
 
 #include <algorithm>
+#include <string>
+#include <unordered_map>
 
 namespace {
 

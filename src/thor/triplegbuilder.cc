@@ -13,7 +13,9 @@
 #include "midgard/pointll.h"
 #include "midgard/util.h"
 #include "proto/common.pb.h"
+#include "proto_conversions.h"
 #include "sif/costconstants.h"
+#include "sif/costfactory.h"
 #include "sif/recost.h"
 #include "triplegbuilder_utils.h"
 

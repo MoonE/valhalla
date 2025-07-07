@@ -1,10 +1,7 @@
 #ifndef VALHALLA_MIDGARD_ELEVATION_ENCODING_H_
 #define VALHALLA_MIDGARD_ELEVATION_ENCODING_H_
 
-#include <valhalla/midgard/logging.h>
-
 #include <cmath>
-#include <type_traits>
 #include <vector>
 
 namespace valhalla {

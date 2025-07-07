@@ -1,7 +1,9 @@
+#include "filesystem.h"
 #include "loki/worker.h"
 #include "pixels.h"
 #include "test.h"
 
+#include <gtest/gtest.h>
 #include <prime_server/http_protocol.hpp>
 #include <prime_server/prime_server.hpp>
 #include <unistd.h>

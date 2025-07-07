@@ -1,4 +1,5 @@
 #include "baldr/transitdeparture.h"
+#include "baldr/graphconstants.h"
 #include "midgard/logging.h"
 
 #include <stdexcept>
